@@ -35,6 +35,9 @@ Bundle "honza/vim-snippets"
 Bundle 'tomtom/tcomment_vim'
 Bundle 'gregsexton/MatchTag'
 
+" less support
+Bundle "KohPoll/vim-less"
+
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
@@ -94,6 +97,12 @@ set smarttab
 set encoding=utf-8
 colorscheme desert
 
+" russian
+set keymap=russian-jcukenwin
+set iminsert=0
+set imsearch=0
+highlight lCursor guifg=NONE guibg=Cyan
 "Project plugin settings
 nmap <silent> <F9> <Plug>ToggleProject
-
+" Add '-' as recognized word symbol. e.g dw delete all 'foo-bar' instead just 'foo'
+set iskeyword+=-
