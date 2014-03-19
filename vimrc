@@ -34,6 +34,7 @@ Bundle "honza/vim-snippets"
 " Very usefull
 Bundle 'tomtom/tcomment_vim'
 Bundle 'gregsexton/MatchTag'
+Bundle 'edsono/vim-matchit' "match xml tags and more
 
 " less support
 Bundle "KohPoll/vim-less"
