@@ -39,6 +39,9 @@ Bundle 'edsono/vim-matchit' "match xml tags and more
 " less support
 Bundle "KohPoll/vim-less"
 
+" Prefixr
+Bundle "vim-scripts/prefixer.vim"
+
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
