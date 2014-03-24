@@ -127,7 +127,7 @@ nmap <silent> <F9> <Plug>ToggleProject
 set iskeyword+=-
 
 " FuzzyFinder mappings
-nnoremap <c-p> :FufFileWithFullCwd<CR>
-inoremap <c-p> <ESC>:FufFileWithFullCwd<CR>
-inoremap <c-r> <ESC>:FufBufferTagAll<CR>
-nnoremap <c-r> :FufBufferTagAll<CR>
+nnoremap <silent> <c-p> :FufFileWithFullCwd<CR>
+inoremap <silent> <c-p> <ESC>:FufFileWithFullCwd<CR>
+inoremap <silent> <c-r> <ESC>:FufBufferTagAll<CR>
+nnoremap <silent> <c-r> :FufBufferTagAll<CR>
