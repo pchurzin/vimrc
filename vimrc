@@ -42,6 +42,21 @@ Bundle "KohPoll/vim-less"
 " Prefixr
 Bundle "vim-scripts/prefixer.vim"
 
+" HTML5 + inline SVG omnicomplete funtion, indent and syntax for Vim.
+Bundle 'othree/html5.vim'
+
+" Add Support css3 property
+Bundle 'hail2u/vim-css3-syntax'
+
+" Smart indent for javascript
+" http://www.vim.org/scripts/script.php?script_id=3081
+Bundle 'lukaszb/vim-web-indent'
+
+" Plugin for changing cursor when entering in insert mode
+" looks like it works fine with iTerm Konsole adn xerm
+" Applies only on next vim launch after BundleInstall
+Bundle 'jszakmeister/vim-togglecursor'
+
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
