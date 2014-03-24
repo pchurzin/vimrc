@@ -125,3 +125,9 @@ highlight lCursor guifg=NONE guibg=Cyan
 nmap <silent> <F9> <Plug>ToggleProject
 " Add '-' as recognized word symbol. e.g dw delete all 'foo-bar' instead just 'foo'
 set iskeyword+=-
+
+" FuzzyFinder mappings
+nnoremap <c-p> :FufFileWithFullCwd<CR>
+inoremap <c-p> <ESC>:FufFileWithFullCwd<CR>
+inoremap <c-r> <ESC>:FufBufferTagAll<CR>
+nnoremap <c-r> :FufBufferTagAll<CR>
